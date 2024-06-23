@@ -2,8 +2,8 @@ const int pHSensorPin = 32; // Pin analog 32 untuk sensor pH
 const int relayPin = 25; // Pin GPIO untuk relay
 const int buttonPin = 27; // Pin GPIO untuk tombol
 
-const float acidThreshold = 4.5;
-const float baseThreshold = 4.6;
+const float acidThreshold = 4.2;
+const float baseThreshold = 4.5;
 
 bool pumpOn = false; // Status pompa air (mati secara default)
 bool buttonStateLast = true; // Status tombol terakhir
